@@ -55,15 +55,15 @@ with open("README.rst") as fp:
     long_docs = fp.read()
 
 setup(
-    name = "earwigbot",
+    name = "Mdann52 bot",
     packages = find_packages(exclude=("tests",)),
     entry_points = {"console_scripts": ["earwigbot = earwigbot.util:main"]},
     install_requires = dependencies,
     test_suite = "tests",
     version = __version__,
-    author = "Ben Kurtovic",
-    author_email = "ben.kurtovic@gmail.com",
-    url = "https://github.com/earwig/earwigbot",
+    author = "Ben Kurtovic, Matthew Dann",
+    author_email = "mdann52@yahoo.co.uk",
+    url = "https://github.com/Mdann52/earwigbot",
     description = "EarwigBot is a Python robot that edits Wikipedia and interacts with people over IRC.",
     long_description = long_docs,
     download_url = "https://github.com/earwig/earwigbot/tarball/v{0}".format(__version__),
